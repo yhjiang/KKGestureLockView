@@ -295,6 +295,7 @@
 		A399B45D17AED01800ADF304 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKGestureLockView/KKGestureLockView-Prefix.pch";
 				INFOPLIST_FILE = "KKGestureLockView/KKGestureLockView-Info.plist";
@@ -333,6 +334,7 @@
 				A399B45E17AED01800ADF304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
