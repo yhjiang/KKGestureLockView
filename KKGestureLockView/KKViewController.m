@@ -23,6 +23,7 @@
     self.lockView.lineColor = [[UIColor orangeColor] colorWithAlphaComponent:0.3];
     self.lockView.lineWidth = 12;
     self.lockView.delegate = self;
+    //增加对3.5寸屏幕的适配
     self.lockView.contentInsets = UIEdgeInsetsMake(iPhone4 ? 100 :150, 20, iPhone4 ? 100 :150, 20);
 }
 
